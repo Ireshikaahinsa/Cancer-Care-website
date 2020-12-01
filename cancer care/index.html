@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+    <title>Cancer_Care_org</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css"  />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+        <style>
+                * {box-sizing: border-box;}
+                
+    .container {
+      position: relative;
+      width: 100%;
+      max-width: 800px;
+    }
+    
+    .container img {
+      width: 100%;
+      height: auto;
+    }
+    
+    .container .btn {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      background-color: blue;/* bcgrnd color*/
+      color: white;/*font color*/
+      font-size: 16px;
+      padding: 12px 24px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      text-align: center;
+    }
+    
+    .container .btn:hover {
+      background-color: black;
+    }
+    </style>
+                
+<!--heder-->
+<div class="header">
+  <a href="#default" class="logo">Cancer Care Organization</a>
+  <div class="header-right">
+    <a class="active" href="form1.html">Donate Now</a>
+   
+  </div>
+</div>
+
+<!---navigation bar-->
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  <a href="types.html">Cancer Types</a>
+  <a href="prevention.html">Prevention</a>
+  <a href="Treatments.html">Treatments</a>
+  <a href="researches.html">Researches</a>
+  <a href="donate.html">Donate</a>
+       
+        <a href="#hotlines">Hotlines</a>
+        <a href="#news">News</a>
+        <a href="#aboutus">About Us</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        <div class="search-container">
+            <form action="/action_page.php">
+              <input type="text" placeholder="Search.." name="search">
+              <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+          </div>
+      </div> 
+     
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+              
+              <div class="icon-bar">
+                  <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+                  <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+                  <a href="#" class="google"><i class="fa fa-google"></i></a> 
+                  <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                  <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
+                </div>
+                         
+            
+            <div class="slideshow-container">
+            
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="images\1.jpg" style="width:100%">
+              <div class="text">Caption Text</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="images\2.jpg" style="width:100%">
+              <div class="text">Caption Two</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="images\3.jpg" style="width:100%">
+              <div class="text">Caption Three</div>
+              <button class="btn">Button</button>
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+            
+            <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";  
+              }
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+            }
+            </script>
+            
+
+
+<center><p><font size="6" style="color:blue;">"Cancer can touch you, but not your soul, neither your thoughts, nor your heart."</font></p></center>
+<br>
+<div class="row">
+   
+  
+<center><h1 style="color:#333;">Stories of Hope</h1>
+  
+  
+    
+    
+    
+  <div class="container">
+    <img src="images\4.png"  style="width:100%">
+    <button class="btn"><a href="videos.html">View their stories</a></button>
+  </div>
+  <br>
+  <center><p><font size="6" style="color:blue;"> "There is no medicine like hope, no incentive so great, and no tonic so powerful as expectation of something tomorrow." </font></p></center>
+<br>
+  <div class="intro">
+      <a href="types.html">
+      <img src="Cancer\3.jpg"  >
+    <h1>Cancer types</h1>
+      </a>
+    <p>important information about many cancer types.</p>
+  </div>
+  
+  <div class="row">
+  
+  <div class="col-2">
+      <a href="prevention.html">
+      <h1>prevention</h1>
+      <img src="Cancer\6.jpg"  >
+      </a>
+      <p><br>important information about how to reduce cancer risk and how to stay healthy.</p>
+  </div>
+  
+  <div class="col-8">
+      <a href="treatment.html">
+      <img src="Cancer\5.jpg"  >
+    <h1>Treatments</h1>
+      </a>
+    <p>Provide detailed information about various Treatments.</p>
+   
+  </div>
+  <div class="col-13">
+      <a href="researches.html">
+      <img src="Cancer\1.jpg"  >
+    <h1>Researches</h1>
+      </a>
+    <p>provide details of latest researches about cancer Treatments.</p>
+    
+  </div>
+  
+  </div>
+  <div class="row">
+      <a href="donate.html">
+    <div class="col-15">
+        <img src="Cancer\7.jpg"  >
+        <h1>Donation</h1>
+        </a>
+        <p>Provide information about donating to save lives.</p>
+        
+    </div>
+    
+    <div class="col-16">
+        <a href="#Bladder">
+      <h1>About Us </h1>
+      
+      <img src="Cancer\8.jpg"  >
+        </a>
+     
+    </div>
+  </div>
+  <br><br><hr><br>
+  <center><h1 style="color:#333;">Isabella's Childhood Cancer Survivor Story</h1>
+  <center><video width="700" controls>
+    <source src="videos\4.mp4" type="video/mp4">
+    <source src="mov_bbb.ogg" type="video/ogg">
+    Your browser does not support HTML5 video.
+  </video></center>
+  
+  <div class="footer">
+    <p>All rights reserved</p>
+  </div>
+          
+        
+
+</body>
+</html>
+
